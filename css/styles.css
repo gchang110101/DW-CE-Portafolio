@@ -1,0 +1,73 @@
+.contenedor-nuevo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-image: url("../imgs/codingbackgroundblack.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: back;
+
+  h1 {
+    color: #4D4DFF;
+  }
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xx-large;
+  color: darkgoldenrod;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  cursor: crosshair;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+}
+
+.section-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.h3-center {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3-center:hover {
+  transform: scale(1.5);
+}
+
+.section-cards > *:hover {
+  transform: scale(1.05); /* Ejemplo de transformación al pasar el mouse */
+}
+.h5-carousel {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+.p-carousel {
+  color: yellowgreen;
+}
+
+.link-carousel {
+  color: lightskyblue;
+  text-decoration: underline;
+}
